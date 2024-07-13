@@ -1,0 +1,79 @@
+//to ignore cli warning about deprecated mixin
+$enable-deprecation-messages: false;
+$ignore-warning             : true;
+
+// stylelint-disable-next-line scss/dollar-variable-default
+
+// $primary   : #93d7b1 !default;
+// $secondary : #69d169 !default;
+// $success   : #209f84 !default;
+// $info      : #80b283 !default;
+// $warning   : #91caac !default;
+// $danger    : #1d923a !default;
+// $light     : #fff    !default;
+// $bluelight : #f1f6ff !default;
+// $dark      : #9dea85;
+// $gray      : #29763f !default;
+
+// $primary   : #93d7b1 !default; // Calming green for main elements
+// $secondary : #69d169 !default; // Slightly darker green for accents
+// $success   : #1ab394 !default; // Vibrant green for success messages
+// $info      : #34bfa3 !default; // Muted green for informational messages
+// $warning   : #f0ad4e !default; // Softer yellow for warning messages
+// $danger    : #ed5565 !default; // Contrasting red for errors
+// $light     : #ffffff !default; // White for clean backgrounds
+// $bluelight : #d9edf7 !default; // Very light blue for subtle backgrounds
+// $dark      : #34495e;          // Soft dark blue for text and primary content
+// $gray      : #d3d3d3 !default; // Light gray for secondary text
+
+$primary   : #88c0a8 !default; // Calming green for main elements
+$secondary : #5b8b6d !default; // Slightly darker green for accents
+$success   : #18a085 !default; // Vibrant green for success messages
+$info      : #76b28d !default; // Muted green for informational messages
+$warning   : #e5a14b !default; // Softer orange for warning messages
+$danger    : #d9534f !default; // Contrasting red for errors
+$light     : #f8f9fa !default; // Light gray for clean backgrounds
+$bluelight : #e3f2fd !default; // Very light blue for subtle backgrounds
+$dark      : #2c3e50;          // Dark blue for text and primary content
+$gray      : #7f8c8d !default; // Dark gray for secondary text
+
+// Body
+$body-bg   : #ffffff;
+$body-color: #444;
+
+// Typography
+$font-family-base : 'Montserrat', sans-serif;
+$font-family-title :'Montserrat', sans-serif;
+$headings-font-weight   : 500;
+
+$font-size-base         : 1rem !default;
+$font-weight-base       : 500 !default;
+
+// Heading Size
+$h1-font-size : 50px;
+$h2-font-size : 35px;
+$h3-font-size : 28px;
+$h4-font-size : 24px;
+$h5-font-size : 20px;
+$h6-font-size : 18px;
+
+$text-muted : #AEAED5;
+$colors     : () !default;
+
+$heading-primary-size: 1.8rem;
+$sub-heading-size    : 1.6rem !default;
+$grid-gutter-width   : 30px;
+$dropdown-lik-color  : $body-color;
+$border-color        : #E1E1F0;
+$headings-color      :#14181d !default;
+$grid-breakpoints    : (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440);
+$container-max-widths: (sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1199px) !default;
+
+$input-btn-focus-width: 0rem !default;
+$border-radius-base   : 8px !default;
+$border-radius-lg   : 20px !default;
+$shadow-color: rgba(160, 159, 202, 0.15);
+$ft-color: #878e9c;
